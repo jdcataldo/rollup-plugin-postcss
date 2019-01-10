@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/egoist/rollup-plugin-postcss#readme",
   "devDependencies": {
-    "autoprefixer": "^7.2.4",
+    "autoprefixer": "^9.4.4",
     "babel-jest": "^22.0.4",
     "babel-preset-env": "^1.5.1",
     "bili": "^3.0.1",
@@ -42,20 +42,20 @@
     "xo": "^0.18.2"
   },
   "dependencies": {
-    "chalk": "^2.0.0",
-    "concat-with-sourcemaps": "^1.0.5",
-    "cssnano": "^3.10.0",
-    "fs-extra": "^5.0.0",
+    "chalk": "^2.4.2",
+    "concat-with-sourcemaps": "^1.1.0",
+    "cssnano": "^4.1.8",
+    "fs-extra": "^7.0.1",
     "import-cwd": "^2.1.0",
     "p-queue": "^2.4.2",
     "pify": "^3.0.0",
-    "postcss": "^6.0.21",
-    "postcss-load-config": "^1.2.0",
-    "postcss-modules": "^1.1.0",
+    "postcss": "^7.0.8",
+    "postcss-load-config": "^2.0.0",
+    "postcss-modules": "^1.4.1",
     "promise.series": "^0.2.0",
     "reserved-words": "^0.1.2",
-    "resolve": "^1.5.0",
-    "rollup-pluginutils": "^2.0.1",
+    "resolve": "^1.9.0",
+    "rollup-pluginutils": "^2.3.3",
     "style-inject": "^0.3.0"
   },
   "xo": {

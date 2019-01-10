@@ -33,6 +33,7 @@ export default (options = {}) => {
     minimize: inferOption(options.minimize, false),
     /** Postcss config file */
     config: inferOption(options.config, {}),
+    to: options.to,
     /** PostCSS options */
     postcss: {
       parser: options.parser,
@@ -86,7 +87,7 @@ export default (options = {}) => {
       }
     },
 
-    async onwrite(opts) {
+    async generateBundle(opts) {
       if (extracted.size === 0) return
       const dirnameMain = path.dirname(opts.file)
 

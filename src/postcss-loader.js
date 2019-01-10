@@ -99,7 +99,7 @@ export default {
       ...config.options,
       // Followings are never modified by user config config
       from: this.id,
-      to: this.id,
+      to: options.to || this.id,
       map: this.sourceMap ?
         shouldExtract ?
           { inline: false, annotation: false } :

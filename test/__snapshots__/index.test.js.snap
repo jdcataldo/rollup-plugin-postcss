@@ -157,72 +157,11 @@ styleInject(css);
 "
 `;
 
-exports[`extract custom-path: css code 1`] = `
-"body {
-  color: red;
-}
-
-.bar {
-  color: red;
-}
-
-body {
-  color: #f00;
-  background: #f00;
-}
-/*# sourceMappingURL=test/fixtures/simple/style.css.map */
-#sidebar {
-  width: 30%;
-  background-color: #faa; }
-
-#header {
-  color: #6c94be;
-}
-
-.pcss {
-  color: red;
-}
-
-/*# sourceMappingURL=extracted.css.map */"
-`;
-
-exports[`extract custom-path: css map 1`] = `"{\\"version\\":3,\\"sources\\":[\\"test/fixtures/dist/extract--custom-path/foo.css\\",\\"test/fixtures/dist/extract--custom-path/bar.css\\",\\"test/fixtures/dist/extract--custom-path/test/fixtures/simple/style.styl\\",\\"test/fixtures/dist/extract--custom-path/style.styl\\",\\"test/fixtures/dist/extract--custom-path/style.sass\\",\\"test/fixtures/dist/extract--custom-path/test/fixtures/simple/style.less\\",\\"test/fixtures/dist/extract--custom-path/style.less\\",\\"test/fixtures/dist/extract--custom-path/style.pcss\\"],\\"names\\":[],\\"mappings\\":\\"AAAA;EACE,WAAW;CACZ;;ACFD;EACE,WAAW;CACZ;;ACFD;EACE,YAAA;EACA,iBAAA;CCCD;AACD,0DAA0D;ACJ1D;EACE,WAAW;EACX,uBAAuB,EAAE;;ACC3B;EACE,eAAA;CCFD;;ACFD;EACE,WAAW;CACZ\\",\\"file\\":\\"test/fixtures/dist/extract--custom-path/this/is/extracted.css\\",\\"sourcesContent\\":[\\"body {\\\\n  color: red;\\\\n}\\\\n\\",\\".bar {\\\\n  color: red;\\\\n}\\\\n\\",null,null,\\"#sidebar {\\\\n  width: 30%;\\\\n  background-color: #faa; }\\\\n\\",null,null,\\".pcss {\\\\n  color: red;\\\\n}\\\\n\\"]}"`;
-
 exports[`extract custom-path: js code 1`] = `
 "'use strict';
 
 console.log(undefined, undefined);
 "
-`;
-
-exports[`extract sourcemap-inline: css code 1`] = `
-"body {
-  color: red;
-}
-
-.bar {
-  color: red;
-}
-
-body {
-  color: #f00;
-  background: #f00;
-}
-/*# sourceMappingURL=test/fixtures/simple/style.css.map */
-#sidebar {
-  width: 30%;
-  background-color: #faa; }
-
-/*# sourceMappingURL=../../../inline */
-#header {
-  color: #6c94be;
-}
-
-.pcss {
-  color: red;
-}
-
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlc3QvZml4dHVyZXMvZGlzdC9leHRyYWN0LS1zb3VyY2VtYXAtaW5saW5lL2Zvby5jc3MiLCJ0ZXN0L2ZpeHR1cmVzL2Rpc3QvZXh0cmFjdC0tc291cmNlbWFwLWlubGluZS9iYXIuY3NzIiwidGVzdC9maXh0dXJlcy9kaXN0L2V4dHJhY3QtLXNvdXJjZW1hcC1pbmxpbmUvdGVzdC9maXh0dXJlcy9zaW1wbGUvc3R5bGUuc3R5bCIsInRlc3QvZml4dHVyZXMvZGlzdC9leHRyYWN0LS1zb3VyY2VtYXAtaW5saW5lL3N0eWxlLnN0eWwiLCJ0ZXN0L2ZpeHR1cmVzL2Rpc3QvZXh0cmFjdC0tc291cmNlbWFwLWlubGluZS90ZXN0L2ZpeHR1cmVzL3NpbXBsZS9zdHlsZS5zYXNzIiwidGVzdC9maXh0dXJlcy9kaXN0L2V4dHJhY3QtLXNvdXJjZW1hcC1pbmxpbmUvc3R5bGUuc2FzcyIsInRlc3QvZml4dHVyZXMvZGlzdC9leHRyYWN0LS1zb3VyY2VtYXAtaW5saW5lL3Rlc3QvZml4dHVyZXMvc2ltcGxlL3N0eWxlLmxlc3MiLCJ0ZXN0L2ZpeHR1cmVzL2Rpc3QvZXh0cmFjdC0tc291cmNlbWFwLWlubGluZS9zdHlsZS5sZXNzIiwidGVzdC9maXh0dXJlcy9kaXN0L2V4dHJhY3QtLXNvdXJjZW1hcC1pbmxpbmUvc3R5bGUucGNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQVc7Q0FDWjs7QUNGRDtFQUNFLFdBQVc7Q0FDWjs7QUNGRDtFQUNFLFlBQUE7RUFDQSxpQkFBQTtDQ0NEO0FBQ0QsMERBQTBEO0FDSjFEO0VBQ0UsV0FBVTtFQUNWLHVCQUFzQixFQUFJOztBQ0U1Qix1Q0FBdUM7QUNEdkM7RUFDRSxlQUFBO0NDRkQ7O0FDRkQ7RUFDRSxXQUFXO0NBQ1oiLCJmaWxlIjoidGVzdC9maXh0dXJlcy9kaXN0L2V4dHJhY3QtLXNvdXJjZW1hcC1pbmxpbmUvYnVuZGxlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xuICBjb2xvcjogcmVkO1xufVxuIiwiLmJhciB7XG4gIGNvbG9yOiByZWQ7XG59XG4iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLCIucGNzcyB7XG4gIGNvbG9yOiByZWQ7XG59XG4iXX0=*/"
 `;
 
 exports[`extract sourcemap-inline: js code 1`] = `
@@ -232,69 +171,10 @@ console.log(undefined, undefined);
 "
 `;
 
-exports[`extract sourcemap-true: css code 1`] = `
-"body {
-  color: red;
-}
-
-.bar {
-  color: red;
-}
-
-body {
-  color: #f00;
-  background: #f00;
-}
-/*# sourceMappingURL=test/fixtures/simple/style.css.map */
-#sidebar {
-  width: 30%;
-  background-color: #faa; }
-
-#header {
-  color: #6c94be;
-}
-
-.pcss {
-  color: red;
-}
-
-/*# sourceMappingURL=bundle.css.map */"
-`;
-
-exports[`extract sourcemap-true: css map 1`] = `"{\\"version\\":3,\\"sources\\":[\\"test/fixtures/dist/extract--sourcemap-true/foo.css\\",\\"test/fixtures/dist/extract--sourcemap-true/bar.css\\",\\"test/fixtures/dist/extract--sourcemap-true/test/fixtures/simple/style.styl\\",\\"test/fixtures/dist/extract--sourcemap-true/style.styl\\",\\"test/fixtures/dist/extract--sourcemap-true/style.sass\\",\\"test/fixtures/dist/extract--sourcemap-true/test/fixtures/simple/style.less\\",\\"test/fixtures/dist/extract--sourcemap-true/style.less\\",\\"test/fixtures/dist/extract--sourcemap-true/style.pcss\\"],\\"names\\":[],\\"mappings\\":\\"AAAA;EACE,WAAW;CACZ;;ACFD;EACE,WAAW;CACZ;;ACFD;EACE,YAAA;EACA,iBAAA;CCCD;AACD,0DAA0D;ACJ1D;EACE,WAAW;EACX,uBAAuB,EAAE;;ACC3B;EACE,eAAA;CCFD;;ACFD;EACE,WAAW;CACZ\\",\\"file\\":\\"test/fixtures/dist/extract--sourcemap-true/bundle.css\\",\\"sourcesContent\\":[\\"body {\\\\n  color: red;\\\\n}\\\\n\\",\\".bar {\\\\n  color: red;\\\\n}\\\\n\\",null,null,\\"#sidebar {\\\\n  width: 30%;\\\\n  background-color: #faa; }\\\\n\\",null,null,\\".pcss {\\\\n  color: red;\\\\n}\\\\n\\"]}"`;
-
 exports[`extract sourcemap-true: js code 1`] = `
 "'use strict';
 
 console.log(undefined, undefined);
-"
-`;
-
-exports[`extract true: css code 1`] = `
-"body {
-  color: red;
-}
-
-.bar {
-  color: red;
-}
-
-body {
-  color: #f00;
-  background: #f00;
-}
-
-#sidebar {
-  width: 30%;
-  background-color: #faa; }
-
-#header {
-  color: #6c94be;
-}
-
-.pcss {
-  color: red;
-}
 "
 `;
 
@@ -366,15 +246,6 @@ styleInject(css$5,{\\"insertAt\\":\\"top\\"});
 
 console.log(css, css$1);
 "
-`;
-
-exports[`minimize extract: css code 1`] = `
-"body{color:red}
-.bar{color:red}
-body{color:red;background:red}
-#sidebar{width:30%;background-color:#faa}
-#header{color:#6c94be}
-.pcss{color:red}"
 `;
 
 exports[`minimize extract: js code 1`] = `
@@ -483,13 +354,6 @@ console.log(
   b,
   c
 );
-"
-`;
-
-exports[`modules extract: css code 1`] = `
-".style_foo {
-  color: red;
-}
 "
 `;
 
